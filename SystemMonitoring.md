@@ -35,6 +35,21 @@
     http://34.228.216.230/nagios3/
 
   ```
+### install nagios4
+ * download and install and compile code.
+ * download plugin's and compile code.
+ * configure my host server  into nagios4
+
+ [installnagios](https://support.nagios.com/kb/article/nagios-core-installing-nagios-core-from-source-96.html#Ubuntu)
+
+```
+in nagios.cfg  file, we should edit as below
+cfg_file=/usr/local/nagios/etc/objects/host1.ip-172-31-91-95.ec2.internal.cfg
 
 
+/usr/local/nagios/nagios -v /usr/local/nagios/etc/nagios.cfg
+sudo systemctl restart nagios.service
+
+
+```
  
