@@ -8,10 +8,14 @@
      * we install agent on each host
      ![passive checks](images/passive.jpg)
 
-### By using system monitoring 
+## By using system monitoring 
+
     * it can monitor individually 
     * it can monitor groups
-    ![group](images/grouphosts.jpg)
+
+    ![ group ](images/grouphosts.jpg)
+g)
+
    
 
 ## install and configure nagios

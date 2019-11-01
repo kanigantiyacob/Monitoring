@@ -9,11 +9,15 @@
      * it monitoring disk space, at this point
      * it up/down by using ping , at this point
 ### tools:
-     1. Nagios:
+     Nagios core:
+       * Nagios core 4 : open source
+       * Nagios core XI: not open source
+        
 
 
 ## 2 application monitoring/ Log monitoring
-   * we can do basic system monitoring and application.
+   * By using, application monitoring, 
+      we can able to do basic system monitoring also and application.
        * it monitor system monitoring also
        * it monitor application logs, at this point.
        * it monitor how much memory used by application,at this point.
